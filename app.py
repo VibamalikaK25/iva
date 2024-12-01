@@ -1,6 +1,8 @@
 import os
 import streamlit as st
 from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
+import numpy as np
 import gdown  # For Google Drive download
 
 # Define model path and download URL
